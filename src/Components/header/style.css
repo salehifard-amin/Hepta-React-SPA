@@ -1,0 +1,28 @@
+.header {
+    padding-top: 45px;
+    padding-bottom: 15px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header .logo a {
+    font-family: "Abril Fatface", times, serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header .hamburger-menu {
+    width: 40px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.header .hamburger-menu span {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 2px;
+}

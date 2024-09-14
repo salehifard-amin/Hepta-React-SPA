@@ -1,0 +1,30 @@
+.introduction .right-item {
+    line-height: 33px;
+}
+.introduction .right-item .play {
+    gap: 25px;
+    color: #65c0ba;
+    font-size: 18px;
+    font-weight: bold;
+}
+.introduction .right-item .play:hover {
+    color: #3f9a94;
+}
+.introduction .right-item .play i {
+    border: 2px solid #e6e6e6;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    transition: all ease-out 0.25s;
+}
+.introduction .right-item .play:hover i {
+    color: #000;
+    border-color: black;
+}
+.introduction .right-item .play i:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%,-50%);
+}

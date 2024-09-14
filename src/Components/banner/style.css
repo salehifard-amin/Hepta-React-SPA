@@ -1,0 +1,55 @@
+.banner {
+    background-image: url(../../../public/images/hero_1.jpg.webp);
+    height: 100vh;
+    min-height: 700px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.banner-content-holder {
+    height: 100vh;
+    min-height: 700px;
+}
+.banner .banner-content h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+}
+.banner .banner-content p {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+.banner .banner-content p a {
+    color: rgba(255, 255, 255, 0.5);;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+.banner .banner-content p a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.banner .scroll {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.banner .scroll p {
+    font-size: 13px;
+    margin: 0;
+}
+.banner .scroll a i {
+   transform: rotateZ(90deg);
+}
